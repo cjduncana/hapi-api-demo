@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/cjduncana/hapi-api-demo/issues"
   },
-  "homepage": "https://github.com/cjduncana/hapi-api-demo#readme"
+  "homepage": "https://github.com/cjduncana/hapi-api-demo#readme",
+  "jshintConfig": {
+    "esversion": 6,
+    "node": true
+  }
 }
