@@ -19,6 +19,9 @@
     "url": "https://github.com/cjduncana/hapi-api-demo/issues"
   },
   "homepage": "https://github.com/cjduncana/hapi-api-demo#readme",
+  "dependencies": {
+    "hapi": "^13.4.1"
+  },
   "jshintConfig": {
     "esversion": 6,
     "node": true
