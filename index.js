@@ -2,4 +2,10 @@
 
 const server = require('./lib/server');
 
-server.start(() => console.log(`Server running at ${server.info.uri}`));
+return server.start()
+.then(() => {
+    console.log('Server up and running at: ' + server.info.uri);
+})
+.catch((err) => {
+    console.error(err.stack);
+});
