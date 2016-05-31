@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/cjduncana/hapi-api-demo#readme",
   "dependencies": {
+    "asoiaf-api": "^1.0.1",
     "bluebird": "^3.4.0",
     "hapi": "^13.4.1",
     "lodash": "^4.13.1"
