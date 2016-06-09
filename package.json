@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Use Hapi.js to serve the content from An API of Ice and Fire.",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js | node_modules/.bin/bunyan"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cjduncana/hapi-api-demo.git"
@@ -22,6 +25,7 @@
   "dependencies": {
     "asoiaf-api": "^1.0.1",
     "bluebird": "^3.4.0",
+    "bunyan": "^1.8.1",
     "hapi": "^13.4.1",
     "lodash": "^4.13.1"
   },

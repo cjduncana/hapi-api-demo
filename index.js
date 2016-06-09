@@ -4,8 +4,8 @@ const server = require('./lib/server');
 
 return server.start()
 .then(() => {
-    console.log('Server up and running at: ' + server.info.uri);
+  server.server.logger.info(`Server up and running at: ${server.info.uri}`);
 })
 .catch((err) => {
-    console.error(err.stack);
+  server.server.logger.error(err.stack);
 });
